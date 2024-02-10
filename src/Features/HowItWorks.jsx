@@ -14,7 +14,7 @@ function HowItWorks() {
             <div className="layout">
               <h4 className="tertiary-header">Select location</h4>
               <p className="text">
-                Choose the location where your food will be delivered
+                Choose the location where your food will be delivered.
               </p>
             </div>
           </div>
@@ -23,7 +23,7 @@ function HowItWorks() {
             <div className="layout">
               <h4 className="tertiary-header">Choose order</h4>
               <p className="text">
-                Check over hundreds of menus to pick your favorite food
+                Check over hundreds of menus to pick your favorite food.
               </p>
             </div>
           </div>
@@ -32,7 +32,7 @@ function HowItWorks() {
             <div className="layout">
               <h4 className="tertiary-header">Pay advanced</h4>
               <p className="text">
-                It's quick, safe, and simple. Select several methods of payment
+                It's quick, safe, and simple. Select several methods of payment.
               </p>
             </div>
           </div>
@@ -41,7 +41,7 @@ function HowItWorks() {
             <div className="layout">
               <h4 className="tertiary-header">Enjoy meals</h4>
               <p className="text">
-                Food is made and delivered directly to your homeh
+                Food is made and delivered directly to your home.
               </p>
             </div>
           </div>

@@ -1,4 +1,8 @@
-import { HiMagnifyingGlass, HiUser } from "react-icons/hi2";
+import {
+  HiMagnifyingGlass,
+  HiOutlineShoppingCart,
+  HiUser,
+} from "react-icons/hi2";
 import logo from "../Images/logo.jpg";
 
 function MainNav() {
@@ -7,7 +11,7 @@ function MainNav() {
       <ul className="main-nav-ul">
         <img src={logo} alt="" className="logo" />
 
-        <li className="main-nav-li">
+        <li className="main-nav-li hidden">
           <strong> Deliver to:</strong> Current Location{" "}
           <strong>Mohammadpur Bus Stand, Dakota</strong>
         </li>
@@ -28,6 +32,7 @@ function MainNav() {
             <HiUser icon-search size={"18px"} />
             login
           </button>
+          <HiOutlineShoppingCart size={"24px"} className="shopping-cart" />
         </div>
       </ul>
     </nav>

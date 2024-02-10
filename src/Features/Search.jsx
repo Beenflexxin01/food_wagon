@@ -52,9 +52,9 @@ function Search() {
     <>
       <div className="food-sw">
         <div className="search">
-          <h2 className="secondary-header popular">Search by food</h2>
+          <h2 className="secondary-header popular s_f">Search by food</h2>
 
-          <div className="greys">
+          <div className="greys s_s">
             {getFoods &&
               getFoods.map((food) => (
                 <div>
@@ -79,16 +79,16 @@ function Search() {
             <img src={map} alt="map" className="feature-img" />
             <p className="d-t">Live Tracing</p>
           </div>
-          <div className="feature">
+          <div className="feature ">
             <img src={clock} alt="clock" className="feature-img" />
-            <p className="d-t">Quick Recovery</p>
+            <p className="d-t f_m">Quick Recovery</p>
           </div>
         </div>
       </div>
 
       <div className="app-install">
         <div className="grid-2-cols">
-          <img src={app} alt="app" />
+          <img src={app} alt="app" className="a-i" />
         </div>
 
         <div className="grid-2-cols install">

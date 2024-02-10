@@ -1,0 +1,837 @@
+@media (max-width: 84rem) {
+  body {
+    /* background-color: rgba(255, 0, 0, 0.131); */
+    overflow-x: hidden;
+  }
+
+  .main-nav-ul {
+    margin: 0;
+  }
+
+  .logo {
+    width: 20rem;
+  }
+
+  .main-nav-li {
+    font-size: 1.5rem;
+  }
+
+  .primary-header {
+    font-size: 4rem;
+    line-height: 4;
+  }
+
+  .text-description {
+    line-height: 3;
+  }
+
+  .input {
+    width: 45rem;
+  }
+
+  .find_food {
+    height: 5rem;
+  }
+
+  .grey-img {
+    width: 29rem;
+  }
+
+  .work-features {
+    width: 130rem;
+  }
+
+  .greys {
+    gap: 1.5rem;
+    width: 140rem;
+  }
+
+  .p_m {
+    width: 24rem;
+  }
+
+  .btn-order {
+    width: 20rem;
+  }
+
+  .grid-4-cols {
+    grid-template-columns: 20% 20% 20% 20%;
+    gap: 3rem;
+  }
+
+  .food-img {
+    width: 20rem;
+    border-radius: 30%;
+  }
+
+  .features {
+    padding: 4rem;
+  }
+
+  .details {
+    padding: 3rem 0;
+  }
+
+  .d_i {
+    width: 70rem;
+  }
+
+  .details {
+    width: 100%;
+  }
+
+  .d-d {
+    box-shadow: -5px 0 0 0 #7c7c7c47;
+  }
+
+  .f_t {
+    font-size: 3.5rem;
+  }
+
+  .cta-btn {
+    width: 30rem;
+    font-size: 1.6rem;
+    margin: 4rem 22rem;
+  }
+
+  .grid-4 {
+    grid-template-columns: 15% 15% 28% 20%;
+  }
+}
+
+@media (max-width: 75em) {
+  /* body {
+    background-color: rgb(174, 255, 174);
+  } */
+
+  .logo {
+    width: 20rem;
+  }
+
+  .main-nav-li {
+    font-size: 1.3rem;
+  }
+
+  .img-grid {
+    height: 40.5rem;
+    width: 50.4rem;
+    /* width: 100%; */
+  }
+
+  .input {
+    width: 40rem;
+  }
+
+  .find_food {
+    width: 18rem;
+  }
+
+  .grey-img {
+    width: 27rem;
+  }
+
+  .section-how {
+    height: 60rem;
+  }
+
+  .work-features {
+    gap: 4rem;
+    text-align: start;
+  }
+
+  .layout {
+    width: 22rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .work_image {
+    margin: 0;
+    width: 26rem;
+  }
+
+  .p_m {
+    width: 22rem;
+  }
+
+  .greys {
+    gap: 2rem;
+  }
+
+  .grid-4-cols {
+    grid-template-columns: 25% 25% 25%;
+  }
+
+  .btn-view {
+    margin-left: 48rem;
+  }
+
+  .food-img {
+    width: 17rem;
+    border-radius: 100%;
+  }
+
+  .features {
+    padding: 2rem;
+  }
+
+  .f_a {
+    width: 113rem;
+  }
+
+  .app-install {
+    padding: 0;
+  }
+
+  .install {
+    width: 40rem;
+  }
+
+  .d_i {
+    width: 55rem;
+  }
+
+  .c_t {
+    left: 50%;
+  }
+
+  .cta-btn {
+    width: 30rem;
+    font-size: 1.6rem;
+    margin: 4rem 10rem;
+  }
+
+  .f_t {
+    font-size: 3rem;
+    width: 50rem;
+  }
+
+  .f_f {
+    width: 40rem;
+  }
+
+  .f--t {
+    width: 40rem;
+    font-size: 1.6rem;
+  }
+
+  .grid-4 {
+    grid-template-columns: 18% 18% 26% 20%;
+  }
+}
+
+@media (max-width: 65em) {
+  /* body {
+    background-color: rgb(215, 215, 226);
+  } */
+
+  .hidden {
+    display: none;
+  }
+
+  /* .grid-2 {
+    grid-template-columns: 50% 40%;
+    display: block;
+    margin: auto;
+    text-align: center;
+  } */
+
+  .primary-header {
+    line-height: 2rem;
+  }
+
+  .input {
+    width: 30rem;
+  }
+
+  .g_w {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+    width: 110rem;
+  }
+
+  .grey-img {
+    width: 40rem;
+  }
+
+  .section-how {
+    height: 110rem;
+    width: 100%;
+  }
+
+  .work-features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20rem;
+    width: 100rem;
+    text-align: center;
+  }
+
+  .work_image {
+    width: 40rem;
+  }
+
+  .layout {
+    width: 37rem;
+  }
+
+  .grid-4-cols {
+    grid-template-columns: 20% 20% 20%;
+  }
+
+  .btn-view {
+    margin-left: 40rem;
+  }
+
+  .f_a {
+    width: 95rem;
+  }
+
+  .d-t {
+    font-size: 2rem;
+  }
+
+  .install {
+    width: 40rem;
+  }
+
+  .app-install {
+    display: block;
+  }
+
+  .install {
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+  }
+
+  .i_h {
+    margin-top: 3rem;
+    text-align: center;
+  }
+
+  .btn {
+    text-align: center;
+    margin: auto;
+    margin-top: 5rem;
+  }
+
+  .d_i {
+    width: 45rem;
+  }
+  .d_i,
+  .d_d,
+  .d__d {
+    width: 45rem;
+  }
+
+  .d_b {
+    width: 30rem;
+  }
+
+  .d_h {
+    font-size: 2.5rem;
+  }
+
+  .f_t {
+    font-size: 2.5rem;
+    width: 44rem;
+  }
+
+  .cta-btn {
+    margin: 4rem 8rem;
+  }
+
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 48em) {
+  /* body {
+    background-color: yellow;
+  } */
+
+  .grid-2 {
+    grid-template-columns: 50% 40%;
+    display: block;
+  }
+
+  .img-grid {
+    height: 35rem;
+  }
+
+  .primary-header {
+    font-size: 3rem;
+    line-height: 2rem;
+  }
+
+  .text-description {
+    font-size: 2rem;
+    line-height: 3.5;
+  }
+
+  .starv-bg {
+    height: 75rem;
+  }
+
+  .g_w {
+    grid-template-columns: 1fr;
+    /* margin-left: 15rem; */
+  }
+
+  .g_t {
+    margin-left: 20rem;
+  }
+
+  .text-grey {
+    margin-left: 3rem;
+  }
+
+  .grey-img {
+    width: 60%;
+    margin-top: 3rem;
+  }
+
+  .section-how {
+    height: 100%;
+    width: 100%;
+  }
+
+  .work-features {
+    grid-template-columns: 1fr;
+    /* margin-left: 10rem; */
+    margin-left: 15rem;
+    height: 100%;
+    gap: 13rem;
+  }
+
+  .layout {
+    width: 100%;
+  }
+
+  .text {
+    /* width: 100%; */
+    width: 50rem;
+    text-align: start;
+  }
+
+  .work_image {
+    height: 20rem;
+    margin: 0;
+  }
+
+  .greys {
+    display: block;
+    height: 100%;
+  }
+
+  .grey-discount {
+    top: 23rem;
+  }
+
+  .p_m {
+    width: 48%;
+  }
+
+  .popular-items {
+    margin: auto;
+  }
+
+  .p_d {
+    margin-left: 23rem;
+  }
+
+  .btn-order {
+    width: 48%;
+    margin-bottom: 4rem;
+  }
+
+  .grid-4-cols {
+    display: block;
+  }
+
+  .r_m {
+    width: 40%;
+  }
+
+  .deliveryy {
+    left: 11%;
+  }
+
+  ._d {
+    width: 100%;
+  }
+
+  .stat-btn {
+    width: 40%;
+  }
+
+  .btn-view {
+    margin-left: 25rem;
+  }
+
+  .food-sw {
+    height: 100rem;
+  }
+
+  .s_s {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1rem;
+    height: 80rem;
+  }
+
+  .food-img {
+    width: 15rem;
+    height: 14rem;
+  }
+
+  .align {
+    margin-left: 2rem;
+    font-size: 1.8rem;
+  }
+
+  .features {
+    height: 100rem;
+  }
+
+  .f_a {
+    display: block;
+    background-color: transparent;
+    margin: 0 13rem;
+    padding: 4rem;
+  }
+
+  .d-t {
+    margin-bottom: 4rem;
+    margin-left: 7rem;
+  }
+
+  .feature-img {
+    width: 40%;
+  }
+
+  .d-d {
+    display: block;
+    /* height: 30%; */
+    margin-bottom: 3rem;
+  }
+
+  .d_i,
+  .d_d {
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .d_d,
+  .d_i {
+    height: 27rem;
+  }
+
+  .d_h {
+    font-size: 2rem;
+  }
+
+  .d_t {
+    line-height: 2;
+    font-size: 1.4rem;
+  }
+
+  .d_b {
+    margin-top: 1rem;
+  }
+
+  .d-d {
+    box-shadow: none;
+  }
+
+  .u_l {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .c_t {
+    left: 20%;
+  }
+
+  .grid-4 {
+    display: block;
+  }
+}
+
+@media (max-width: 35rem) {
+  /* body {
+    background-color: rgb(234, 103, 103);
+    overflow-x: hidden;
+  } */
+
+  .grid-2 {
+    text-align: center;
+  }
+
+  .img-grid {
+    width: 100%;
+    height: 50%;
+    margin: auto;
+  }
+
+  .logo {
+    width: 10rem;
+  }
+
+  .btn-div {
+    gap: 1rem;
+  }
+
+  .address {
+    width: 100%;
+    height: 20rem;
+  }
+
+  .form {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .pickup {
+    width: 100%;
+    padding: 1.8rem 1rem;
+  }
+
+  .btn-delivery {
+    font-size: 1.5rem;
+  }
+
+  .text-field-btn {
+    display: block;
+    width: 35rem;
+    width: 100%;
+    height: 12rem;
+  }
+
+  .find_food {
+    margin-top: 1rem;
+  }
+
+  .grey-img {
+    width: 100%;
+    width: 33%;
+    /* margin: auto; */
+  }
+
+  .g_t {
+    margin-left: 11rem;
+    /* text-align: center; */
+  }
+
+  .work-features {
+    margin-left: 5rem;
+  }
+
+  .text {
+    width: 38rem;
+  }
+
+  .p_m {
+    width: 28%;
+    /* width: 33%; */
+  }
+
+  .p_d {
+    margin-left: 8rem;
+  }
+
+  .btn-order {
+    width: 28%;
+  }
+
+  .popular {
+    font-size: 3rem;
+  }
+
+  .r_m {
+    width: 25%;
+  }
+
+  .deliveryy {
+    left: 4%;
+  }
+
+  .stat-btn {
+    width: 25%;
+  }
+
+  .btn-view {
+    margin-left: 14rem;
+    width: 20rem;
+  }
+
+  .food-sw {
+    height: 180rem;
+  }
+
+  .s_s {
+    display: block;
+  }
+
+  .food-img {
+    height: 20rem;
+    width: 36rem;
+    border-radius: 0;
+  }
+
+  .align {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .f_a {
+    margin: 4rem 9rem;
+  }
+
+  .feature-img {
+    width: 20%;
+  }
+
+  .d-t {
+    margin-left: 0;
+  }
+
+  .a-i {
+    width: 100%;
+  }
+
+  .d_b {
+    width: 23rem;
+    font-size: 1.4rem;
+  }
+
+  .d_t {
+    width: 25rem;
+    font-size: 1.3rem;
+  }
+
+  .d_d {
+    padding: 3rem;
+  }
+
+  .d_h {
+    font-size: 1.7rem;
+  }
+
+  .c_t {
+    left: 0;
+    top: 50%;
+  }
+
+  .f_t {
+    font-size: 1.8rem;
+  }
+
+  .cta-btn {
+    font-size: 1.2rem;
+    width: 25rem;
+  }
+
+  .u_l {
+    display: block;
+  }
+
+  .f_f {
+    display: block;
+  }
+
+  .b_s {
+    margin-top: 2rem;
+  }
+
+  .follow {
+    font-size: 1.5rem;
+  }
+
+  .f--t {
+    font-size: 1.4rem;
+  }
+
+  .a-r {
+    font-size: 1.2rem;
+  }
+
+  .hr {
+    margin-top: 8rem;
+  }
+}
+
+/* .burger {
+  display: flex;
+  background-color: transparent;
+  justify-content: space-around;
+  flex-direction: column;
+  top: 15px;
+  height: 2.4rem;
+}
+
+.burger_bar {
+  position: relative;
+  background-color: #eee;
+  height: 2px;
+  width: 3rem;
+  transition: all 0.5s ease-in-out;
+  left: -2rem;
+}
+
+.burger_bar::before,
+.burger_bar::after {
+  content: "X";
+  position: absolute;
+  height: 2px;
+  color: #eee;
+  border-radius: 2px;
+  transition: all 0.4s ease-in-out;
+}
+
+.bar {
+  right: 0;
+  width: 1.5rem;
+}
+
+.bar3 {
+  width: 2.5rem;
+}
+
+.open > .burger_bar {
+  background-color: transparent;
+}
+
+.open > .burger_bar::before {
+  width: 32px;
+  transform: rotate(45deg);
+}
+
+.open > .burger_bar::after {
+  width: 32px;
+  transform: rotate(-45deg);
+}
+
+.burger-menu {
+  display: flex;
+  background-color: #000000;
+  position: absolute;
+  top: 8rem;
+  left: 0;
+  width: 45%;
+  height: 100vh;
+  align-items: start;
+  transition: all 0.6s linear;
+  transform: translate(-100%);
+  opacity: 0;
+  padding: 5rem 1.5rem;
+  flex-direction: column;
+  gap: 3rem;
+} */

@@ -11,12 +11,12 @@ function Home() {
   return (
     <div>
       <Starving />
+      <FlashDeals />
       <HowItWorks />
       <PopularItmes />
       <Restaurants />
       <Search />
       <Details />
-      <FlashDeals />
       <Footer />
     </div>
   );

@@ -47,19 +47,24 @@ function PopularItmes() {
     <>
       <div className="popular-items containe">
         <h2 className="secondary-header popular">Popular items</h2>
-        <div className="greys">
+        <div className="greys popular-section">
           {getPopularItems &&
             getPopularItems.map((items) => (
               <div className="popular-items">
                 <img
                   src={items.image}
                   alt={items.name}
-                  className="popular-img"
+                  className="popular-img p_m"
                 />
-                <p className="text-grey">{items.name}</p>
-                <p className="text-grey location">{items.location}</p>
-                <p className="text-grey">${items.price}</p>
-                <button className="btn-order">Order Now</button>
+                <div className="p_d">
+                  <div className="m_l">
+
+                  <p className="text-grey">{items.name}</p>
+                  <p className="text-grey location">{items.location}</p>
+                  <p className="text-grey">${items.price}</p>
+                  </div>
+                </div>
+                  <button className="btn-order">Order Now</button>
               </div>
             ))}
         </div>

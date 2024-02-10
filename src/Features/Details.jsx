@@ -21,9 +21,9 @@ function Details() {
         </div>
 
         <div className="d-d">
-          <img src={chicken} alt="Crispy Sandwich" className="d_i" />
+          <img src={chicken} alt="Crispy Sandwich" className="d_i d-i" />
 
-          <div className="d_d">
+          <div className="d_d d__d">
             <h3 className="d_h">
               Celebrate parties with <span className="d_s">Fried Chicken</span>
             </h3>

@@ -98,11 +98,14 @@ function Footer() {
             </form>
           </div>
         </ul>
-        <hr />
+        <hr className="hr"/>
         <div>
           <p className="a-r">
             All rights Reserved
-            <Link to="https://nola-portfolio.netlify.app" className="link">
+            <Link
+              to="https://nola-portfolio.netlify.app"
+              className="link"
+              target="blank">
               {" "}
               &copy; Aortech
             </Link>

@@ -115,7 +115,7 @@ function Restaurants() {
                 <img
                   src={items.image}
                   alt={items.name}
-                  className="popular-img"
+                  className="popular-img r_m"
                 />
                 <div className="deliveryy">
                   <div className="delivery">
@@ -128,19 +128,21 @@ function Restaurants() {
                     <p className="discount deliver"> {items.delivery}</p>
                   </div>
                 </div>
-                <div className="icon-image">
-                  <img
-                    src={items.iconImage}
-                    alt={items.name}
-                    className="icon-img"
-                  />
-                  <p className="restaurant-text">{items.name}</p>
+                <div className="_d">
+                  <div className="icon-image">
+                    <img
+                      src={items.iconImage}
+                      alt={items.name}
+                      className="icon-img"
+                    />
+                    <p className="restaurant-text">{items.name}</p>
+                  </div>
+                  <div className="star-rating">
+                    <HiStar size={"25px"} className="star" />
+                    <p className="text-grey rating"> {items.rating}</p>
+                  </div>
                 </div>
-                <div className="star-rating">
-                  <HiStar size={"25px"} className="star" />
-                  <p className="text-grey rating"> {items.rating}</p>
-                </div>
-                <button className=" stat-btn">{items.status}</button>
+                  <button className=" stat-btn">{items.status}</button>
               </div>
             ))}
         </div>
