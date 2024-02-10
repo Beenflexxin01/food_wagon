@@ -350,9 +350,9 @@
 }
 
 @media (max-width: 48em) {
-  /* body {
+  body {
     background-color: yellow;
-  } */
+  }
 
   .grid-2 {
     grid-template-columns: 50% 40%;
@@ -561,11 +561,11 @@
   }
 }
 
-@media (max-width: 35rem) {
-  /* body {
+@media (max-width: 38rem) {
+  body {
     background-color: rgb(234, 103, 103);
     overflow-x: hidden;
-  } */
+  }
 
   .grid-2 {
     text-align: center;
