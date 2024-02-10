@@ -1,4 +1,7 @@
-@media (max-width: 84rem) {
+/* 1rem = 1em = 16px */
+/* To calculate the breakpoint, you divide the breakpoint size by 16 */
+
+@media (max-width: 84em) {
   body {
     /* background-color: rgba(255, 0, 0, 0.131); */
     overflow-x: hidden;
@@ -114,8 +117,8 @@
 
   .img-grid {
     height: 40.5rem;
-    width: 50.4rem;
-    /* width: 100%; */
+    height: 100%;
+    width: 100%;
   }
 
   .input {
@@ -220,39 +223,47 @@
   }
 }
 
-@media (max-width: 65em) {
+@media (max-width: 64em) {
   /* body {
     background-color: rgb(215, 215, 226);
   } */
+
+  .grid-2-cols {
+    width: 100%;
+  }
+
+  .form,
+  .text-field-btn {
+    width: 100%;
+  }
 
   .hidden {
     display: none;
   }
 
-  /* .grid-2 {
-    grid-template-columns: 50% 40%;
-    display: block;
-    margin: auto;
-    text-align: center;
-  } */
+  .input {
+    width: 100%;
+  }
+
+  .find_food {
+    /* width: 50%; */
+    font-size: 1.4rem;
+    padding: 2rem;
+  }
 
   .primary-header {
     line-height: 2rem;
-  }
-
-  .input {
-    width: 30rem;
   }
 
   .g_w {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 100%;
-    width: 110rem;
+    width: 100%;
   }
 
   .grey-img {
-    width: 40rem;
+    width: 100%;
   }
 
   .section-how {
@@ -260,24 +271,59 @@
     width: 100%;
   }
 
+  .popular-section,
+  .s_s {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+    width: 100%;
+  }
+
+  .popular-items {
+    margin-bottom: 5rem;
+    width: 100%;
+  }
+
+  .food-sw,
+  .search {
+    height: 100%;
+    width: 100%;
+  }
+
+  .p_m,
+  .r_m {
+    width: 100%;
+  }
+
+  .food-img {
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .align {
+    text-align: start;
+  }
+
   .work-features {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20rem;
-    width: 100rem;
+    width: 100%;
     text-align: center;
   }
 
   .work_image {
-    width: 40rem;
+    width: 100%;
   }
 
   .layout {
-    width: 37rem;
+    width: 100%;
   }
 
   .grid-4-cols {
-    grid-template-columns: 20% 20% 20%;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    margin: 0;
   }
 
   .btn-view {
@@ -285,7 +331,11 @@
   }
 
   .f_a {
-    width: 95rem;
+    width: 100%;
+  }
+
+  .features {
+    width: 100%;
   }
 
   .d-t {
@@ -319,29 +369,43 @@
   }
 
   .d_i {
-    width: 45rem;
+    width: 100%;
   }
+
+  .d-d {
+    width: 100%;
+  }
+
   .d_i,
   .d_d,
   .d__d {
-    width: 45rem;
+    width: 50%;
+  }
+
+  .d_t {
+    width: 100%;
   }
 
   .d_b {
-    width: 30rem;
+    width: 100%;
+    font-size: 1.3rem;
   }
 
   .d_h {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .f_t {
-    font-size: 2.5rem;
-    width: 44rem;
+    font-size: 2rem;
+    width: 100%;
   }
 
   .cta-btn {
     margin: 4rem 8rem;
+  }
+
+  .u_l {
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .grid-4 {
@@ -349,10 +413,10 @@
   }
 }
 
-@media (max-width: 48em) {
-  body {
+@media (max-width: 44em) {
+  /* body {
     background-color: yellow;
-  }
+  } */
 
   .grid-2 {
     grid-template-columns: 50% 40%;
@@ -379,7 +443,6 @@
 
   .g_w {
     grid-template-columns: 1fr;
-    /* margin-left: 15rem; */
   }
 
   .g_t {
@@ -391,7 +454,6 @@
   }
 
   .grey-img {
-    width: 60%;
     margin-top: 3rem;
   }
 
@@ -402,8 +464,6 @@
 
   .work-features {
     grid-template-columns: 1fr;
-    /* margin-left: 10rem; */
-    margin-left: 15rem;
     height: 100%;
     gap: 13rem;
   }
@@ -413,9 +473,7 @@
   }
 
   .text {
-    /* width: 100%; */
-    width: 50rem;
-    text-align: start;
+    text-align: center;
   }
 
   .work_image {
@@ -432,10 +490,6 @@
     top: 23rem;
   }
 
-  .p_m {
-    width: 48%;
-  }
-
   .popular-items {
     margin: auto;
   }
@@ -445,7 +499,7 @@
   }
 
   .btn-order {
-    width: 48%;
+    width: 100%;
     margin-bottom: 4rem;
   }
 
@@ -453,9 +507,13 @@
     display: block;
   }
 
-  .r_m {
+  /* .r_m {
     width: 40%;
-  }
+  } */
+
+  /* .r_m {
+    width: 100%;
+  } */
 
   .deliveryy {
     left: 11%;
@@ -466,11 +524,11 @@
   }
 
   .stat-btn {
-    width: 40%;
+    width: 100%;
   }
 
   .btn-view {
-    margin-left: 25rem;
+    margin-left: 0;
   }
 
   .food-sw {
@@ -478,15 +536,13 @@
   }
 
   .s_s {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 1rem;
-    height: 80rem;
+    display: block;
+    height: 100%;
   }
 
-  .food-img {
-    width: 15rem;
-    height: 14rem;
+  .food-sw,
+  .search {
+    height: 100%;
   }
 
   .align {
@@ -501,17 +557,16 @@
   .f_a {
     display: block;
     background-color: transparent;
-    margin: 0 13rem;
     padding: 4rem;
   }
 
   .d-t {
     margin-bottom: 4rem;
-    margin-left: 7rem;
+    margin-left: 14rem;
   }
 
   .feature-img {
-    width: 40%;
+    width: 100%;
   }
 
   .d-d {
@@ -520,10 +575,14 @@
     margin-bottom: 3rem;
   }
 
+  .a-i {
+    width: 100%;
+  }
+
   .d_i,
   .d_d {
     border-radius: 0;
-    width: 100%;
+    width: 80%;
   }
 
   .d_d,
@@ -561,10 +620,18 @@
   }
 }
 
-@media (max-width: 38rem) {
-  body {
+@media (max-width: 34em) {
+  /* body {
     background-color: rgb(234, 103, 103);
     overflow-x: hidden;
+  } */
+
+  .primary-header {
+    font-size: 1.8rem;
+  }
+
+  .text-description {
+    font-size: 1.5rem;
   }
 
   .grid-2 {
@@ -606,6 +673,7 @@
 
   .btn-delivery {
     font-size: 1.5rem;
+    padding: 1.8rem;
   }
 
   .text-field-btn {
@@ -619,52 +687,22 @@
     margin-top: 1rem;
   }
 
-  .grey-img {
-    width: 100%;
-    width: 33%;
-    /* margin: auto; */
-  }
-
   .g_t {
     margin-left: 11rem;
     /* text-align: center; */
   }
 
-  .work-features {
-    margin-left: 5rem;
-  }
-
   .text {
-    width: 38rem;
-  }
-
-  .p_m {
-    width: 28%;
-    /* width: 33%; */
+    /* width: 38rem; */
+    text-align: center;
   }
 
   .p_d {
     margin-left: 8rem;
   }
 
-  .btn-order {
-    width: 28%;
-  }
-
   .popular {
     font-size: 3rem;
-  }
-
-  .r_m {
-    width: 25%;
-  }
-
-  .deliveryy {
-    left: 4%;
-  }
-
-  .stat-btn {
-    width: 25%;
   }
 
   .btn-view {
@@ -672,18 +710,8 @@
     width: 20rem;
   }
 
-  .food-sw {
-    height: 180rem;
-  }
-
   .s_s {
     display: block;
-  }
-
-  .food-img {
-    height: 20rem;
-    width: 36rem;
-    border-radius: 0;
   }
 
   .align {
@@ -691,34 +719,8 @@
     font-size: 2rem;
   }
 
-  .f_a {
-    margin: 4rem 9rem;
-  }
-
-  .feature-img {
-    width: 20%;
-  }
-
   .d-t {
     margin-left: 0;
-  }
-
-  .a-i {
-    width: 100%;
-  }
-
-  .d_b {
-    width: 23rem;
-    font-size: 1.4rem;
-  }
-
-  .d_t {
-    width: 25rem;
-    font-size: 1.3rem;
-  }
-
-  .d_d {
-    padding: 3rem;
   }
 
   .d_h {
@@ -726,7 +728,6 @@
   }
 
   .c_t {
-    left: 0;
     top: 50%;
   }
 

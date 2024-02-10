@@ -54,10 +54,10 @@ function Search() {
         <div className="search">
           <h2 className="secondary-header popular s_f">Search by food</h2>
 
-          <div className="greys s_s">
+          <div className="greys s_s s_w">
             {getFoods &&
               getFoods.map((food) => (
-                <div>
+                <div className="s_w">
                   <img src={food.image} alt={food.name} className="food-img" />
 
                   <p className="text align">{food.name}</p>

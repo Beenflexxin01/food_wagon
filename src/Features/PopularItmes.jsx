@@ -54,17 +54,16 @@ function PopularItmes() {
                 <img
                   src={items.image}
                   alt={items.name}
-                  className="popular-img p_m"
+                  className="popular-img p_m "
                 />
                 <div className="p_d">
                   <div className="m_l">
-
-                  <p className="text-grey">{items.name}</p>
-                  <p className="text-grey location">{items.location}</p>
-                  <p className="text-grey">${items.price}</p>
+                    <p className="text-grey">{items.name}</p>
+                    <p className="text-grey location">{items.location}</p>
+                    <p className="text-grey">${items.price}</p>
                   </div>
                 </div>
-                  <button className="btn-order">Order Now</button>
+                <button className="btn-order">Order Now</button>
               </div>
             ))}
         </div>
