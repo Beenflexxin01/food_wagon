@@ -382,10 +382,6 @@
     font-size: 2rem;
   }
 
-  .install {
-    width: 40rem;
-  }
-
   .app-install {
     display: block;
   }
@@ -394,7 +390,6 @@
     height: 100%;
     text-align: center;
     margin: auto;
-    width: 80%;
   }
 
   .i_h {
@@ -624,6 +619,10 @@
     height: 27rem;
   }
 
+  .d_d {
+    padding: 4rem;
+  }
+
   .d_h {
     font-size: 2rem;
   }
@@ -672,7 +671,6 @@
 
   .img-grid {
     width: 100%;
-    height: 50%;
     margin: auto;
   }
 
@@ -724,7 +722,7 @@
   }
 
   .grey-discount {
-    top: -20.6rem;
+    top: 52%;
   }
 
   .text {
@@ -765,8 +763,21 @@
     top: 50%;
   }
 
+  .btn {
+    margin: 2rem 0;
+  }
+
+  .app-install {
+    padding: 2rem;
+  }
+
+  .c_t {
+    left: 2rem;
+  }
+
   .f_t {
     font-size: 1.8rem;
+    color: #000;
   }
 
   .cta-btn {
@@ -800,5 +811,9 @@
 
   .hr {
     margin-top: 8rem;
+  }
+
+  .footer {
+    padding: 3rem;
   }
 }
