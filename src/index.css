@@ -98,29 +98,29 @@ body {
 .primary-header {
   color: #fff;
   font-size: 8rem;
-  line-height: 8.8rem;
 }
 
 .text-description {
   font-size: 2.3rem;
-  line-height: 26.2rem;
   color: #504f4f;
 }
 
 .grid-2 {
   display: grid;
-  grid-template-columns: 61% 39%;
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
 }
 
 .starv-bg {
   background-color: #ffae00;
-  height: 66.1rem;
 }
 
 .img-grid {
-  height: 50.5rem;
+  height: 35rem;
   width: 60.4rem;
+  position: absolute;
+  top: 33%;
+  right: -4%;
 }
 
 .address {
@@ -133,7 +133,6 @@ body {
   gap: 0.8rem;
   padding: 2.4rem;
   height: 8.6rem;
-  width: 85.6rem;
 }
 
 .btn-delivery {
@@ -160,16 +159,12 @@ body {
   display: flex;
   align-items: center;
   gap: 1rem;
-  width: 85.6rem;
   padding: 2.4rem;
-  height: 10.8rem;
 }
 
 .text-field-btn {
   display: flex;
   align-items: center;
-  width: 80.8rem;
-  height: 6rem;
   gap: 1.6rem;
   position: relative;
 }
@@ -216,7 +211,7 @@ body {
 
 .greys {
   display: flex;
-  margin: 1.6rem 1rem;
+  margin: 4rem 6rem;
   gap: 3.2rem;
   height: 41.5rem;
   width: 147.5rem;
@@ -245,7 +240,7 @@ body {
 }
 
 .grey-img {
-  width: 35.7rem;
+  width: 30rem;
   height: 30.1rem;
   border-radius: 1.6rem;
 }
@@ -291,7 +286,8 @@ body {
 .work-features {
   display: flex;
   gap: 3.2rem;
-  height: 23.9rem;
+  padding: 2rem;
+  margin: 6rem;
   width: 138.4rem;
   text-align: center;
 }
@@ -325,8 +321,13 @@ body {
   color: #212121;
 }
 
+.popular-section {
+  gap: 2rem;
+  margin: 0;
+}
+
 .popular-img {
-  width: 28.3rem;
+  width: 25rem;
   height: 28.3rem;
   border-radius: 1.6rem;
 }
@@ -358,7 +359,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 3rem;
-  margin: 6.4rem 3rem 0 3rem;
+  margin: 6.4rem 5rem 0 7rem;
   width: 147.6rem;
 }
 
@@ -506,8 +507,14 @@ body {
 
 .food-img {
   width: 21.8rem;
-  height: 27rem;
+  width: 18rem;
+  height: 20rem;
   border-radius: 100%;
+}
+
+.s_w {
+  margin: 1rem;
+  padding: 1rem;
 }
 
 .features {

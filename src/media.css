@@ -28,8 +28,9 @@
     line-height: 3;
   }
 
-  .input {
-    width: 45rem;
+  .img-grid {
+    width: 40rem;
+    top: 42%;
   }
 
   .find_food {
@@ -37,16 +38,21 @@
   }
 
   .grey-img {
-    width: 29rem;
+    width: 80%;
+    height: 70%;
+  }
+
+  .greys {
+    width: 100%;
+    margin: 5rem;
+  }
+
+  .grey-discount {
+    top: 42%;
   }
 
   .work-features {
     width: 130rem;
-  }
-
-  .greys {
-    gap: 1.5rem;
-    width: 140rem;
   }
 
   .p_m {
@@ -115,12 +121,6 @@
     font-size: 1.3rem;
   }
 
-  .img-grid {
-    height: 40.5rem;
-    height: 100%;
-    width: 100%;
-  }
-
   .input {
     width: 40rem;
   }
@@ -129,23 +129,21 @@
     width: 18rem;
   }
 
-  .grey-img {
-    width: 27rem;
-  }
-
   .section-how {
+    width: 100%;
     height: 60rem;
   }
 
   .work-features {
-    gap: 4rem;
-    text-align: start;
+    gap: 2rem;
+    text-align: center;
+    width: 100%;
+    margin: 2rem;
+    padding: 2rem;
   }
 
   .layout {
-    width: 22rem;
-    padding: 1rem;
-    text-align: center;
+    width: 100%;
   }
 
   .work_image {
@@ -154,7 +152,11 @@
   }
 
   .p_m {
-    width: 22rem;
+    width: 100%;
+  }
+
+  .popular-section {
+    margin: 0;
   }
 
   .greys {
@@ -163,35 +165,67 @@
 
   .grid-4-cols {
     grid-template-columns: 25% 25% 25%;
+    width: 100%;
+    margin: 9rem;
+  }
+
+  .restaurant-item {
+    margin-bottom: 2rem;
   }
 
   .btn-view {
     margin-left: 48rem;
   }
 
+  .food-sw,
+  .search {
+    height: 100%;
+    width: 100%;
+  }
+
   .food-img {
-    width: 17rem;
     border-radius: 100%;
+    width: 100%;
+  }
+
+  .s_s {
+    margin: 0;
+    padding: 5rem;
+  }
+
+  .align {
+    font-size: 1.3rem;
   }
 
   .features {
+    width: 100%;
     padding: 2rem;
   }
 
   .f_a {
-    width: 113rem;
+    width: 100%;
+  }
+
+  .d-t {
+    font-size: 2.5rem;
   }
 
   .app-install {
-    padding: 0;
+    width: 100%;
   }
 
-  .install {
-    width: 40rem;
+  .a-i {
+    width: 100%;
   }
 
-  .d_i {
-    width: 55rem;
+  .d_i,
+  .d_d,
+  .d__d {
+    width: 50%;
+  }
+
+  .d_t {
+    width: 100%;
   }
 
   .c_t {
@@ -226,10 +260,15 @@
 @media (max-width: 64em) {
   /* body {
     background-color: rgb(215, 215, 226);
+    overflow-x: hidden;
   } */
 
   .grid-2-cols {
     width: 100%;
+  }
+
+  .img-grid {
+    top: 31%;
   }
 
   .form,
@@ -246,7 +285,6 @@
   }
 
   .find_food {
-    /* width: 50%; */
     font-size: 1.4rem;
     padding: 2rem;
   }
@@ -260,6 +298,7 @@
     grid-template-columns: repeat(2, 1fr);
     height: 100%;
     width: 100%;
+    margin: 0;
   }
 
   .grey-img {
@@ -301,7 +340,8 @@
   }
 
   .align {
-    text-align: start;
+    text-align: center;
+    font-size: 2rem;
   }
 
   .work-features {
@@ -425,6 +465,9 @@
 
   .img-grid {
     height: 35rem;
+    width: 100%;
+    top: 48rem;
+    right: 4rem;
   }
 
   .primary-header {
@@ -487,7 +530,7 @@
   }
 
   .grey-discount {
-    top: 23rem;
+    top: 68%;
   }
 
   .popular-items {
@@ -506,14 +549,6 @@
   .grid-4-cols {
     display: block;
   }
-
-  /* .r_m {
-    width: 40%;
-  } */
-
-  /* .r_m {
-    width: 100%;
-  } */
 
   .deliveryy {
     left: 11%;
@@ -571,7 +606,6 @@
 
   .d-d {
     display: block;
-    /* height: 30%; */
     margin-bottom: 3rem;
   }
 
@@ -622,10 +656,8 @@
 
 @media (max-width: 34em) {
   /* body {
-    background-color: rgb(234, 103, 103);
-    overflow-x: hidden;
+    background-color: aquamarine;
   } */
-
   .primary-header {
     font-size: 1.8rem;
   }
@@ -689,11 +721,13 @@
 
   .g_t {
     margin-left: 11rem;
-    /* text-align: center; */
+  }
+
+  .grey-discount {
+    top: -20.6rem;
   }
 
   .text {
-    /* width: 38rem; */
     text-align: center;
   }
 
@@ -768,71 +802,3 @@
     margin-top: 8rem;
   }
 }
-
-/* .burger {
-  display: flex;
-  background-color: transparent;
-  justify-content: space-around;
-  flex-direction: column;
-  top: 15px;
-  height: 2.4rem;
-}
-
-.burger_bar {
-  position: relative;
-  background-color: #eee;
-  height: 2px;
-  width: 3rem;
-  transition: all 0.5s ease-in-out;
-  left: -2rem;
-}
-
-.burger_bar::before,
-.burger_bar::after {
-  content: "X";
-  position: absolute;
-  height: 2px;
-  color: #eee;
-  border-radius: 2px;
-  transition: all 0.4s ease-in-out;
-}
-
-.bar {
-  right: 0;
-  width: 1.5rem;
-}
-
-.bar3 {
-  width: 2.5rem;
-}
-
-.open > .burger_bar {
-  background-color: transparent;
-}
-
-.open > .burger_bar::before {
-  width: 32px;
-  transform: rotate(45deg);
-}
-
-.open > .burger_bar::after {
-  width: 32px;
-  transform: rotate(-45deg);
-}
-
-.burger-menu {
-  display: flex;
-  background-color: #000000;
-  position: absolute;
-  top: 8rem;
-  left: 0;
-  width: 45%;
-  height: 100vh;
-  align-items: start;
-  transition: all 0.6s linear;
-  transform: translate(-100%);
-  opacity: 0;
-  padding: 5rem 1.5rem;
-  flex-direction: column;
-  gap: 3rem;
-} */
